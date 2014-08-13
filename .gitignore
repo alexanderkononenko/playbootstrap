@@ -39,3 +39,5 @@ nosetests.xml
 # SQLite DB
 *.db
 
+#IDEs
+.idea

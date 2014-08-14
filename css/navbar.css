@@ -1,3 +1,21 @@
-.affix a.navbar-brand {
-    color: red;
+body { padding-top: 170px; }     /*  because fixed navbar    */
+
+
+/* LOGO
+-------------------------------------------------- */
+.navbar a.navbar-brand {
+    width: 200px;
+    height: 150px;
+    background: url('../img/bootstrap.jpeg') no-repeat 0 0;
+    background-size: 200px 150px;
+    margin: 0;
+    padding: 0;
 }
+.navbar a.navbar-brand span {
+    display: none;
+}
+
+
+/*.affix a.navbar-brand {
+    color: red;
+}*/
